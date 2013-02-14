@@ -1,1 +1,3 @@
 name = Remove Uppercase Accents
+description = Remove uppercase accents for Greek characters
+core = 7.x
