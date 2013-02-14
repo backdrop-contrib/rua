@@ -80,3 +80,4 @@ jQuery(document).ready(function($) {
     $(":uppercase, :smallcaps").removeAcc();
   });
 });
+
