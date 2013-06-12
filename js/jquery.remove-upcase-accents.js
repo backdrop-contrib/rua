@@ -65,4 +65,8 @@ jQuery(document).ready(function($) {
   $(document).ajaxComplete(function(event, request, settings) {
     $(':uppercase').not('.fieldset-legend').removeAcc();
   });
+  $(':smallcaps').not('.fieldset-legend').removeAcc();
+  $(document).ajaxComplete(function(event, request, settings) {
+    $(':smallcaps').not('.fieldset-legend').removeAcc();
+  });
 });
