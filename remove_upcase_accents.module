@@ -9,8 +9,5 @@
  * Implements hook_preprocess_page().
  */
 function remove_upcase_accents_preprocess_page(&$variables) {
-  $current_path = current_path();
-  if (!path_is_admin($current_path)) {
     drupal_add_js(drupal_get_path('module', 'remove_upcase_accents') . '/js/jquery.remove-upcase-accents.js');
-  }
 }
