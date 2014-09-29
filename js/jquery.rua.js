@@ -45,6 +45,7 @@ jQuery.extend({
     text = text.replace(/ΰ/g, "υ");
     text = text.replace(/Ώ/g, "Ω");
     text = text.replace(/ώ/g, "ω");
+  	text = text.replace(/ς/g, "Σ");
 
     (elem.tagName.toLowerCase() == "input") ? (elem.value = text) : (elem.innerHTML = text);
   }
