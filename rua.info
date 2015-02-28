@@ -1,3 +1,4 @@
 name = Remove Uppercase Accents
 description = Remove uppercase accents for Greek characters
-core = 7.x
+backdrop = 1.x
+scripts[] = js/jquery.rua.js
